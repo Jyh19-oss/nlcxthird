@@ -1019,7 +1019,7 @@
                     <div class="feature-row">
                         <div class="feature-name">产品名称</div>
                         <div class="feature-values">
-                            <div class="feature-value" data-product="mango">山栏酒</div>
+                            <div class="feature-value" data-product="mango">黄灯笼辣椒酱</div>
                             <div class="feature-value" data-product="dragonfruit">野生蜂蜜</div>
                             <div class="feature-value" data-product="coconut">海南椰子</div>
                             <div class="feature-value" data-product="banana">大叶茶</div>
@@ -1052,7 +1052,7 @@
                     <div class="feature-row">
                         <div class="feature-name">重量规格</div>
                         <div class="feature-values">
-                            <div class="feature-value" data-product="mango">500-800g/个</div>
+                            <div class="feature-value" data-product="mango">500-800g/瓶</div>
                             <div class="feature-value" data-product="dragonfruit">400-600g/个</div>
                             <div class="feature-value" data-product="coconut">1.2-1.5kg/个</div>
                             <div class="feature-value" data-product="banana">1.5-2kg/把</div>
@@ -1062,7 +1062,7 @@
                     <div class="feature-row">
                         <div class="feature-name">保质期</div>
                         <div class="feature-values">
-                            <div class="feature-value" data-product="mango">常温7天</div>
+                            <div class="feature-value" data-product="mango">常温30天</div>
                             <div class="feature-value" data-product="dragonfruit">常温5天</div>
                             <div class="feature-value" data-product="coconut">常温15天</div>
                             <div class="feature-value" data-product="banana">常温5-7天</div>
@@ -1085,7 +1085,7 @@
                     <div class="feature-row">
                         <div class="feature-name">维生素含量</div>
                         <div class="feature-values">
-                            <div class="feature-value" data-product="mango">富含维生素A、C</div>
+                            <div class="feature-value" data-product="mango">含有大量的维生素C和胡萝卜素</div>
                             <div class="feature-value" data-product="dragonfruit">富含多种酶，和矿物质</div>
                             <div class="feature-value" data-product="coconut">电解质丰富</div>
                             <div class="feature-value" data-product="banana">含有丰富的蛋白质、多种矿物质等营养成分</div>
@@ -1095,10 +1095,10 @@
                     <div class="feature-row">
                         <div class="feature-name">适合人群</div>
                         <div class="feature-values">
-                            <div class="feature-value" data-product="mango">成年人</div>
-                            <div class="feature-value" data-product="dragonfruit">适合全年龄</div>
+                            <div class="feature-value" data-product="mango">爱吃辣的</div>
+                            <div class="feature-value" data-product="dragonfruit">爱吃甜的</div>
                             <div class="feature-value" data-product="coconut">适合全年龄</div>
-                            <div class="feature-value" data-product="banana">成年人</div>
+                            <div class="feature-value" data-product="banana">爱喝茶</div>
                         </div>
                     </div>
                 </div>
@@ -1223,10 +1223,10 @@
             // 更新对比总结
             function updateComparisonSummary(products) {
                 const summaryText = {
-                    'mango': '山栏茶以高甜度和细腻果肉著称，适合喜欢甜食的消费者。',
-                    'dragonfruit': '山栏酒电解质丰富，是天然的运动饮料，特别适合夏季解暑。',
-                    'coconut': '野生蜂蜜富含花青素，具有美容养颜功效，深受女性喜爱。',
-                    'banana': '大叶茶高钾低钠，是健康零食和婴幼儿辅食的优质选择。'
+                    'mango': '黄灯笼辣椒酱不仅味道独特，还具有较高的营养价值，适量食用对健康有益。'
+                    'dragonfruit': '野生蜂蜜富含营养，具有美容养颜功效，深受女性喜爱。'
+                    'coconut': '山栏酒口味独特，是天然的运动饮料，特别适合夏季解暑。'
+                    'banana': '大叶茶以其浓烈的口感和独特的香气受到许多茶饮者的喜爱，适合喜欢重口味茶饮的人群。'
                 };
 
                 let summary = products.map(p => summaryText[p]).join(' ');
@@ -1254,7 +1254,7 @@
 
                 // 模拟数据
                 const productNames = products.map(p => ({
-                    'mango': '山栏茶',
+                    'mango': '黄灯笼辣椒酱',
                     'dragonfruit': '野生蜂蜜',
                     'coconut': '海南椰子',
                     'banana': '大叶茶'
